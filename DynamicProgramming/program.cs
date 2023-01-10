@@ -32,7 +32,6 @@ int InEfficientMax(int[] numbers)
 
 /*Thankfully, there’s an easy way to eliminate all these extra recursive calls.
 We’ll call max only once within our code, and save the result to a variable*/
-
 int EfficientMax(int[] numbers)
 {
     WriteLine("RECURSION");
